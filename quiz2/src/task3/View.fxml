@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="134.0" layoutY="126.0" prefHeight="17.0" prefWidth="47.0" text="Name:" />
+        <Label layoutX="134.0" layoutY="160.0" prefHeight="17.0" prefWidth="83.0" text="Expiration date:" />
+        <Label layoutX="134.0" layoutY="194.0" prefHeight="17.0" prefWidth="83.0" text="Quantity:" />
+        <DatePicker fx:id="dateInput" layoutX="234.0" layoutY="156.0" />
+        <TextField fx:id="nameInput" layoutX="234.0" layoutY="122.0" />
+        <TextField fx:id="quantityInput" layoutX="234.0" layoutY="190.0" />
+        <Button fx:id="saveBtn" layoutX="342.0" layoutY="234.0" mnemonicParsing="false" onAction="#onClick" text="Save" />
+        <Label layoutX="261.0" layoutY="45.0" prefHeight="40.0" prefWidth="162.0" text="Insert">
+            <font>
+                <Font size="28.0" />
+            </font>
+        </Label>
+      <Button fx:id="importBtn" onAction="#onImportClick" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" text="Import" />
+    </children>
+</AnchorPane>

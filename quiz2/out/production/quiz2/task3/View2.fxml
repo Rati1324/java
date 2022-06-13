@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="task3.View2Controller">
+    <Button fx:id="delete" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#deleteBtn" text="Delete selected" />
+    <Button fx:id="edit" layoutX="100.0" layoutY="1.0" mnemonicParsing="false" onAction="#editBtn" text="Edit selected" />
+    <TableView fx:id="productsTable" layoutX="69.0" layoutY="50.0" prefHeight="328.0" prefWidth="462.0">
+        <columns>
+            <TableColumn fx:id="productNameCol" prefWidth="75.0" text="Name"/>
+            <TableColumn fx:id="expirationDateCol" prefWidth="75.0" text="Expiration date"/>
+            <TableColumn fx:id="quantityCol" prefWidth="75.0" text="Quantity"/>
+        </columns>
+    </TableView>
+</AnchorPane>
