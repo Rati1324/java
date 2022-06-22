@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="book.InsertViewController">
+    <children>
+        <TextField fx:id="nameInput" layoutX="226.0" layoutY="68.0" />
+        <TextField fx:id="authorInput" layoutX="226.0" layoutY="111.0" />
+        <DatePicker fx:id="dateInput" layoutX="226.0" layoutY="156.0" />
+        <TextField fx:id="priceInput" layoutX="226.0" layoutY="200.0" />
+        <Label layoutX="156.0" layoutY="72.0" text="name" />
+        <Label layoutX="156.0" layoutY="115.0" text="author" />
+        <Label layoutX="156.0" layoutY="160.0" text="date" />
+        <Label layoutX="156.0" layoutY="204.0" text="price" />
+        <Button fx:id="insertBtnClick" layoutX="226.0" layoutY="230.0" mnemonicParsing="false" onAction="#onInsertClick" text="Import" />
+    </children>
+</AnchorPane>

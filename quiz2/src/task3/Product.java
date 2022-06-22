@@ -1,19 +1,17 @@
 package task3;
 
-import java.sql.Date;
-import java.time.LocalDate;
 
 public class Product {
     public int id;
     public String productName;
-    public Date expirationDate;
+    public String expirationDate;
 
     public int quantity;
-    public Date getExpirationDate() {
+    public String getExpirationDate() {
         return expirationDate;
     }
 
-    public void setExpirationDate(Date expirationDate) {
+    public void setExpirationDate(String expirationDate) {
         this.expirationDate = expirationDate;
     }
 

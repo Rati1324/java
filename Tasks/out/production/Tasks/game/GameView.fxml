@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.GameViewController">
+    <Label fx:id="label1" layoutX="153.0" layoutY="65.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label2" layoutX="207.0" layoutY="65.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label3" layoutX="263.0" layoutY="65.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label4" layoutX="320.0" layoutY="65.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label5" layoutX="154.0" layoutY="108.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label6" layoutX="208.0" layoutY="108.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label7" layoutX="264.0" layoutY="108.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label8" layoutX="321.0" layoutY="108.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label9" layoutX="155.0" layoutY="149.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label10" layoutX="209.0" layoutY="149.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label11" layoutX="265.0" layoutY="149.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label12" layoutX="322.0" layoutY="149.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label13" layoutX="154.0" layoutY="192.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label14" layoutX="208.0" layoutY="192.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label15" layoutX="264.0" layoutY="192.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label16" layoutX="321.0" layoutY="192.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label17" layoutX="154.0" layoutY="233.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label18" layoutX="208.0" layoutY="233.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label19" layoutX="264.0" layoutY="233.0" prefHeight="35.0" prefWidth="35.0" />
+    <Label fx:id="label20" layoutX="321.0" layoutY="233.0" prefHeight="35.0" prefWidth="35.0" />
+   <Label fx:id="curScore" layoutX="28.0" layoutY="23.0" text="Score:" />
+   <Label fx:id="money" layoutX="151.0" layoutY="23.0" text="Money:" />
+   <Button fx:id="play1" onAction="#play" layoutX="349.0" layoutY="19.0" mnemonicParsing="false" text="Play" />
+
+</AnchorPane>

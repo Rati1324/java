@@ -54,7 +54,7 @@ public class DB {
     public void insert(Product p) throws SQLException {
         Statement st = con.createStatement();
         PreparedStatement prepst = con.prepareStatement("INSERT INTO product(productName, expirationDate, quantity) VALUES (?,?,?)");
-        prepst.setDate(2, p.getExpirationDate());
+        prepst.setString(2, p.getExpirationDate());
         prepst.setInt(3, p.getQuantity());
         prepst.executeUpdate();
     }
@@ -71,7 +71,7 @@ public class DB {
             Product p = new Product();
             p.setId(rs.getInt("id"));
             p.setProductName(rs.getString("productName"));
-            p.setExpirationDate(rs.getDate("expirationDate"));
+            p.setExpirationDate(rs.getString("expirationDate"));
             p.setQuantity(rs.getInt("quantity"));
             pList.add(p);
         }
